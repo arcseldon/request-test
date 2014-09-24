@@ -1,0 +1,19 @@
+{
+  "name": "request-test",
+  "version": "0.0.1",
+  "author": "arcseldon",
+  "description": "Test illegal characters",
+  "main": "server.js",
+  "repository": "",
+  "scripts": {
+    "client": "node --harmony ./client.js",
+    "server": "node --harmony ./server.js large.txt"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "dependencies": {
+    "request": "~2.44.0"
+  }
+}
